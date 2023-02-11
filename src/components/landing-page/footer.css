@@ -1,0 +1,32 @@
+footer {
+    background-color: var(--bg);
+    text-align: center;
+    padding: 1rem 0 3rem;
+    margin-top: 3rem;
+  
+  }
+  
+  footer .socials {
+    padding: 1rem 0;
+  
+  }
+  
+  footer .socials a {
+    color: #fff;
+    margin: 1rem;
+  }
+  
+  footer .socials a:hover,
+  footer .links a:hover{
+    color: var(--primary);
+  }
+  
+  footer .links{
+    margin-bottom: 1.4rem;
+  }
+  
+  footer .links a{
+    color: #fff;
+    padding: 0.7rem 1rem;
+  }
+  

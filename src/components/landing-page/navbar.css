@@ -1,0 +1,76 @@
+:root {
+    --primary: tomato;
+    --secondary: #5c3c0c;
+    --bg: #010101;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    top: 0;
+    background-color: rgba(1, 1, 1, 0.8);
+    border-bottom: 1px solid #513c28;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  .nav-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    font-style: italic;
+  }
+
+  
+  .navlink a {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 0 1rem;
+  }
+  
+  .navlink a:hover {
+    color: var(--primary);
+  }
+  
+  .navlink a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid var(--primary);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+  }
+  
+  .navlink a:hover::after {
+    transform: scaleX(0.5);
+  }
+  
+  .extras a {
+    color: #fff;
+    margin: 0 0.5rem;
+  }
+  
+  .extras a:hover {
+    color: var(--primary);
+  }
+  
+  #hamburger-menu {
+    display: none;
+  }
+
+  .usf-logo {
+    position: relative;
+    width: 3rem;
+    float: left;
+    right: 1rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+
