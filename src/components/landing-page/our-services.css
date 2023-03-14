@@ -5,7 +5,7 @@
 .our-services h2{
     text-align: center;
     font-size: 2.6rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .our-services h2 span{
@@ -26,14 +26,16 @@
   
 .column {
     flex: 50%;
-    margin: 1rem;
+    margin-top: 1rem;
 }
 
 .container {
     background-color: #010101;
     border-radius: 2rem;
     width: 30rem;
-    margin-left: 4.5rem;
+    /* margin-left: 4.5rem; */
+    position: relative;
+    margin: auto;
 }
 
 img{

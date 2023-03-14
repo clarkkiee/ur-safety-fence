@@ -8,7 +8,7 @@ const Hero = () => {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, doloribus.</p>
                 <a href="#" class="cta">Konsultasi Sekarang</a>
             </main>
-    </section>
+        </section>
     )
 }
 

@@ -24,7 +24,7 @@ const OurServices = () => {
                         <img src={cardimg2} alt="cardimg"/>
                         <h3>Forum Diskusi</h3>
                         <p>Fitur Forum Diskusi memungkinkan para pemilik bisnis kecil atau UMKM agar dapat melakukan diskusi memalui chat secara real-time dengan sesama pemilik bisnis UMKM lainnya agar mereka dapat saling bertanya dan memberi saran satu sama lain sebagai bagian dari suatu komunitas. </p>
-                        <a href="#" class="services-btn">Diskusi Sekarang</a>
+                        <a href="/forum" class="services-btn">Diskusi Sekarang</a>
                     </div>
                 </div>
             </div>

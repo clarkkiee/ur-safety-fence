@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className="extras">
                 <a href="#" id="search"><Search/></a>
                 <a href="#" id="message"><MessageCircle/></a>
-                <a href="#" id="forum"><ForumOutlinedIcon /></a>
+                <a href="/forum" id="forum"><ForumOutlinedIcon /></a>
                 <a href="#" id="hamburger-menu"><Menu/></a>
             </div>
         </nav>

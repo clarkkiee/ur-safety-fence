@@ -12,7 +12,7 @@ const Footer = () => {
             <div class="links">
                 <a href="#home">Beranda</a>
                 <a href="#about">Tentang</a>
-                <a href="#menu">Layanan Kami</a>
+                <a href="#our-services">Layanan Kami</a>
                 <a href="#contact">Kontak</a>
             </div>
       </footer>
